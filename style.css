@@ -1,0 +1,47 @@
+* {
+  color: white;
+}
+
+.logo_navbar {
+  max-width: 120px;
+}
+
+.fotoProfilo {
+  max-width: 40px;
+}
+
+.genresButton {
+  background-color: black;
+  height: 40px;
+}
+
+.ordineLista button {
+  background-color: transparent;
+  border: solid 2px #919191;
+}
+
+.ordineLista button:hover{
+    background-color: #91919163;
+}
+
+.ordineLista ion-icon {
+  color: #919191;
+}
+
+.carousel-control-prev{
+    left: -140px;
+}
+
+.carousel-control-next{
+    right: -140px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    opacity: 1;
+}
+
+/* .carousel-control-prev:hover,
+.carousel-control-next:hover{
+   opacity: 1;
+} */
