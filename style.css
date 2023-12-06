@@ -20,28 +20,28 @@
   border: solid 2px #919191;
 }
 
-.ordineLista button:hover{
-    background-color: #91919163;
+.ordineLista button:hover {
+  background-color: #91919163;
 }
 
 .ordineLista ion-icon {
   color: #919191;
 }
 
-.carousel-control-prev{
-    left: -140px;
+.carousel-control-prev {
+  max-width: 100px;
 }
 
-.carousel-control-next{
-    right: -140px;
+.carousel-control-next {
+  max-width: 100px;
 }
 
 .carousel-control-prev,
-.carousel-control-next{
-    opacity: 1;
+.carousel-control-next {
+  opacity: 0;
 }
 
-/* .carousel-control-prev:hover,
-.carousel-control-next:hover{
-   opacity: 1;
-} */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
