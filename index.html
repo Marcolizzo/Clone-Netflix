@@ -17,7 +17,7 @@
       <!-- NAVBAR -->
       <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid px-0">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="/index.html"
             ><img
               class="logo_navbar"
               src="/assets/imgs/Netflix_Logo_RGB.png"
@@ -54,9 +54,16 @@
             </ul>
           </div>
           <form class="d-flex align-items-center">
-            <ion-icon name="search-outline" class="text-light fs-2"></ion-icon>
+            <a href="#"
+              ><ion-icon
+                name="search-outline"
+                class="text-light fs-2"
+              ></ion-icon
+            ></a>
             <button class="btn" type="submit">KIDS</button>
-            <ion-icon name="notifications" class="text-light fs-2"></ion-icon>
+            <a href="#"
+              ><ion-icon name="notifications" class="text-light fs-2"></ion-icon
+            ></a>
             <div class="dropdown">
               <button
                 class="btn dropdown-toggle"
@@ -522,10 +529,39 @@
       <!-- footer -->
       <footer>
         <div class="container w-50 pt-5 mt-5">
-          <ion-icon name="logo-facebook"></ion-icon>
-          <ion-icon name="logo-instagram"></ion-icon>
-          <ion-icon name="logo-twitter"></ion-icon>
-          <ion-icon name="logo-youtube"></ion-icon>
+          <div class="icone fs-2 d-flex gap-4">
+            <ion-icon class="facebook" name="logo-facebook"></ion-icon>
+            <ion-icon class="insta" name="logo-instagram"></ion-icon>
+            <ion-icon class="twitter" name="logo-twitter"></ion-icon>
+            <ion-icon class="youtube" name="logo-youtube"></ion-icon>
+          </div>
+          <div class="links row row-cols-2 row-cols-sm-2 row-cols-md-4 py-3">
+            <div class="col">
+              <p><a href="#">Audio and Subtitles</a></p>
+              <p><a href="#">Media Center</a></p>
+              <p><a href="#">Privacy</a></p>
+              <p><a href="#">Contact us</a></p>
+            </div>
+            <div class="col">
+              <p><a href="#">Audio Description</a></p>
+              <p><a href="#">Investor Relations</a></p>
+              <p><a href="#">Legal notices</a></p>
+            </div>
+            <div class="col">
+              <p><a href="#">Help Center</a></p>
+              <p><a href="#">Jobs</a></p>
+              <p><a href="#">Cookie preference</a></p>
+            </div>
+            <div class="col">
+              <p><a href="#">Gift Cards</a></p>
+              <p><a href="#">Terms of Use</a></p>
+              <p><a href="#">Corporate Information</a></p>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-secondary rounded-0">
+            Service Code
+          </button>
+          <p class="pt-3">© 1997-2019 Netflix, Inc. {i-0d00fcda2fdf9c0de}</p>
         </div>
       </footer>
     </div>
